@@ -4,4 +4,5 @@ pip install jupyter_contrib_nbextensions
 jupyter contrib nbextension install --user
 pip install jupyter_nbextensions_configurator
 jupyter nbextensions_configurator enable --user
+jupyter nbextension enable hide_input_all/main
 jupyter nbextension enable python_markdown/main
