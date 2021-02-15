@@ -1,8 +1,10 @@
 #!/bin/bash
 
 pip install jupyter_contrib_nbextensions
-jupyter contrib nbextension install --user
 pip install jupyter_nbextensions_configurator
+pip install numpy
+
+jupyter contrib nbextension install --user
 jupyter nbextensions_configurator enable --user
 jupyter nbextension enable hide_input_all/main
 jupyter nbextension enable python-markdown/main
