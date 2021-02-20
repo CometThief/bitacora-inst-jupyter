@@ -3,6 +3,8 @@
 pip install jupyter_contrib_nbextensions
 pip install jupyter_nbextensions_configurator
 pip install numpy
+pip install pandas
+pip install matplotlib
 
 jupyter contrib nbextension install --user
 jupyter nbextensions_configurator enable --user
